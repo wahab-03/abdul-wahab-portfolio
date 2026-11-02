@@ -1,0 +1,402 @@
+<!doctype html>
+<html lang="en" data-theme="dark">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="color-scheme" content="dark light">
+  <meta name="theme-color" content="#0b1018" id="theme-color-meta">
+  <meta name="description" content="Abdul Wahab is a professional web developer focused on responsive websites, Odoo applications, Python, business automation and thoughtful digital experiences. Explore selected projects and get in touch.">
+  <meta name="author" content="Abdul Wahab">
+  <meta name="robots" content="index, follow">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Abdul Wahab — Professional Web Developer">
+  <meta property="og:description" content="Odoo development, Python, business applications and practical digital solutions.">
+  <meta property="og:image" content="assets/abdul-wahab-portrait.webp">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Abdul Wahab — Professional Web Developer">
+  <meta name="twitter:description" content="Odoo development, Python, business applications and practical digital solutions.">
+  <title>Abdul Wahab — Professional Web Developer & app Developer</title>
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <link rel="preload" as="image" href="assets/abdul-wahab-portrait.webp" type="image/webp">
+  <link rel="stylesheet" href="style.css">
+  <script>
+    (() => {
+      const root = document.documentElement;
+      try {
+        const saved = localStorage.getItem('aw-portfolio-theme');
+        const systemDark = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches;
+        root.dataset.theme = saved === 'dark' || saved === 'light' ? saved : (systemDark ? 'dark' : 'light');
+      } catch (_) {
+        root.dataset.theme = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light';
+      }
+    })();
+  </script>
+</head>
+<body>
+  <a class="skip-link" href="#main-content">Skip to content</a>
+  <div class="ambient ambient--one" aria-hidden="true"></div>
+  <div class="ambient ambient--two" aria-hidden="true"></div>
+  <div class="page-grain" aria-hidden="true"></div>
+
+  <header class="site-header" id="site-header">
+    <div class="header-inner">
+      <a class="brand" href="#home" aria-label="Abdul Wahab — home">
+        <span class="brand-mark" aria-hidden="true">AW</span>
+        <span class="brand-name">Abdul Wahab<span>.</span></span>
+      </a>
+
+      <nav class="desktop-nav" aria-label="Main navigation">
+        <a class="nav-link is-active" href="#home">Home</a>
+        <a class="nav-link" href="#about">About</a>
+        <a class="nav-link" href="#skills">Skills</a>
+        <a class="nav-link" href="#projects">Projects</a>
+        <a class="nav-link" href="#education">Education</a>
+        <a class="nav-link" href="#contact">Contact</a>
+      </nav>
+
+      <div class="header-actions">
+        <button class="icon-button theme-toggle" type="button" data-theme-toggle aria-label="Switch to light mode" title="Switch theme">
+          <svg class="theme-icon theme-icon--sun" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="4"></circle><path d="M12 2v2m0 16v2M4.93 4.93l1.42 1.42m11.3 11.3 1.42 1.42M2 12h2m16 0h2M4.93 19.07l1.42-1.42m11.3-11.3 1.42-1.42"></path></svg>
+          <svg class="theme-icon theme-icon--moon" viewBox="0 0 24 24" aria-hidden="true"><path d="M20.2 15.6A8.6 8.6 0 0 1 8.4 3.8 8.7 8.7 0 1 0 20.2 15.6Z"></path><path d="M16.5 3.5v4m-2-2h4"></path></svg>
+        </button>
+        <a class="button button-small button-header" href="#contact">Let's connect <span aria-hidden="true">↗</span></a>
+        <button class="icon-button menu-toggle" type="button" aria-label="Open navigation menu" aria-expanded="false" aria-controls="mobile-menu" data-menu-toggle>
+          <span></span><span></span>
+        </button>
+      </div>
+    </div>
+    <nav class="mobile-nav" id="mobile-menu" aria-label="Mobile navigation" hidden>
+      <a href="#home">Home</a>
+      <a href="#about">About</a>
+      <a href="#skills">Skills</a>
+      <a href="#projects">Projects</a>
+      <a href="#education">Education</a>
+      <a href="#contact">Contact</a>
+      <a class="mobile-nav-cta" href="#contact">Let's connect <span aria-hidden="true">↗</span></a>
+    </nav>
+  </header>
+
+  <main id="main-content">
+    <section class="hero section-shell" id="home" aria-labelledby="hero-title">
+      <div class="hero-copy">
+        <div class="eyebrow hero-eyebrow"><span class="eyebrow-line"></span><span>PROFESSIONAL WEB DEVELOPER · DHAKA, BANGLADESH</span></div>
+        <p class="hero-intro">Hello, I'm</p>
+        <h1 id="hero-title">Abdul <span>Wahab</span><span class="hero-period">.</span></h1>
+        <div class="hero-role"><span>Web Developer</span><i aria-hidden="true"></i><span>App Developer</span><i aria-hidden="true"></i><span>Odoo Developer</span></div>
+        <p class="hero-description">I build practical software for real workflows — from custom Odoo applications and data-rich dashboards to integrations and clear, user-focused web experiences.</p>
+        <div class="hero-actions">
+          <a class="button button-primary" href="#projects">Explore my work <span aria-hidden="true">↗</span></a>
+          <a class="button button-ghost" href="#contact"><span class="button-icon" aria-hidden="true">✉</span> Get in touch</a>
+        </div>
+        <div class="hero-socials" aria-label="Social profiles">
+          <a href="https://github.com/wahab-03" target="_blank" rel="noopener noreferrer" aria-label="GitHub profile">GitHub <span aria-hidden="true">↗</span></a>
+          <a href="https://www.linkedin.com/in/abdul-wahab-a36583279/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn profile">LinkedIn <span aria-hidden="true">↗</span></a>
+          <a href="https://www.facebook.com/profile.php?id=100064949740569" target="_blank" rel="noopener noreferrer" aria-label="Facebook profile">Facebook <span aria-hidden="true">↗</span></a>
+        </div>
+      </div>
+
+      <div class="hero-visual" aria-label="Portrait of Abdul Wahab">
+        <div class="hero-orbit hero-orbit--one" aria-hidden="true"></div>
+        <div class="hero-orbit hero-orbit--two" aria-hidden="true"></div>
+        <div class="hero-grid" aria-hidden="true"></div>
+        <div class="portrait-card">
+          <div class="portrait-topline"><span>PROFILE / 001</span><span class="portrait-status"><i></i> BUILDING PRACTICAL SOLUTIONS</span></div>
+          <div class="portrait-image-wrap">
+            <img src="assets/abdul-wahab-portrait.webp" alt="Portrait of Abdul Wahab" width="1149" height="1369" fetchpriority="high" decoding="async">
+            <div class="portrait-image-shade" aria-hidden="true"></div>
+            <div class="portrait-caption"><span class="portrait-caption-mark">AW</span><span><strong>Abdul Wahab</strong><small>PROFESSIONAL WEB DEVELOPER</small></span></div>
+          </div>
+          <div class="portrait-bottomline"><span>UNIVERSITY OF ASIA PACIFIC</span><span>EST. IN CODE <b>✳</b></span></div>
+        </div>
+        <div class="float-chip float-chip--python"><span class="chip-symbol">Py</span><span>Python</span></div>
+        <div class="float-chip float-chip--odoo"><span class="chip-symbol chip-symbol--odoo">O</span><span>Odoo 17 / 18</span></div>
+        <div class="float-chip float-chip--api"><span class="chip-symbol">⌁</span><span>API integration</span></div>
+        <div class="visual-caption"><span class="visual-caption-dot"></span> Turning ideas into useful software</div>
+      </div>
+      <a class="scroll-cue" href="#about"><span>SCROLL TO EXPLORE</span><i aria-hidden="true"></i></a>
+    </section>
+
+    <section class="section section-about" id="about" aria-labelledby="about-title">
+      <div class="section-shell">
+        <div class="section-heading reveal">
+          <span class="section-index">ABOUT ME</span>
+          <h2 id="about-title">Thoughtful code.<br><em>Useful outcomes.</em></h2>
+          <p>A little about how I approach software and the problems I enjoy solving.</p>
+        </div>
+
+        <div class="about-layout">
+          <div class="about-code-card reveal reveal-delay-1" aria-label="A short code-inspired introduction">
+            <div class="code-card-top"><span class="window-dots"><i></i><i></i><i></i></span><span>developer.py</span><span class="code-card-lock">⌘</span></div>
+            <pre><code><span class="code-purple">class</span> <span class="code-blue">Developer</span>:
+    name = <span class="code-green">"Abdul Wahab"</span>
+    focus = [
+        <span class="code-green">"Odoo applications"</span>,
+        <span class="code-green">"Python & integrations"</span>,
+        <span class="code-green">"Business workflows"</span>
+    ]
+
+    <span class="code-purple">def</span> <span class="code-blue">build</span>(self, problem):
+        <span class="code-purple">return</span> solve_with_care(problem)<span class="code-cursor">▍</span></code></pre>
+            <div class="code-card-footer"><span><i></i> CURIOUS BY NATURE</span><span>UTF-8</span></div>
+            <div class="code-card-glow" aria-hidden="true"></div>
+          </div>
+
+          <div class="about-copy reveal reveal-delay-2">
+            <span class="mini-kicker">A PRACTICAL APPROACH TO DEVELOPMENT</span>
+            <h3>I enjoy making complex workflows feel <em>simple.</em></h3>
+            <p>I'm Abdul Wahab, a Computer Science & Engineering graduate-level learner at the University of Asia Pacific in Dhaka. My work centres on building useful digital tools that help people organize information and manage everyday operations.</p>
+            <p>I’m especially interested in Odoo customization, Python-based application logic, JavaScript interfaces, database-backed dashboards and API integrations. I start by understanding the workflow, then focus on making the solution dependable and easy to use.</p>
+            <div class="about-principles">
+              <div class="principle-item"><span class="principle-icon" aria-hidden="true">⌘</span><span><strong>Business applications</strong><small>Custom Odoo modules and dashboards</small></span></div>
+              <div class="principle-item"><span class="principle-icon" aria-hidden="true">⌁</span><span><strong>Backend & integration</strong><small>Python logic, APIs and data flows</small></span></div>
+              <div class="principle-item"><span class="principle-icon" aria-hidden="true">◈</span><span><strong>Frontend experiences</strong><small>Responsive interfaces and clear interaction</small></span></div>
+            </div>
+            <a class="inline-link" href="#projects">Explore selected projects <span aria-hidden="true">↗</span></a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section-skills" id="skills" aria-labelledby="skills-title">
+      <div class="section-shell">
+        <div class="section-heading reveal">
+          <span class="section-index">TOOLKIT</span>
+          <h2 id="skills-title">The tools behind<br><em>the work.</em></h2>
+          <p>Technologies represented across my development work and public repositories.</p>
+        </div>
+
+        <div class="skills-grid">
+          <article class="skill-card reveal reveal-delay-1">
+            <div class="skill-card-top"><span class="skill-icon">Py</span><span class="skill-number">01</span></div>
+            <h3>Languages</h3>
+            <p>Application logic, scripting and data-oriented development.</p>
+            <div class="tag-list"><span>Python</span><span>JavaScript</span><span>SQL</span><span>PowerShell</span></div>
+          </article>
+          <article class="skill-card reveal reveal-delay-2">
+            <div class="skill-card-top"><span class="skill-icon skill-icon--brackets">&lt;/&gt;</span><span class="skill-number">02</span></div>
+            <h3>Web & interface</h3>
+            <p>Building browser experiences and Odoo views with web standards.</p>
+            <div class="tag-list"><span>HTML5</span><span>CSS3</span><span>SCSS</span><span>XML</span><span>OWL 2</span></div>
+          </article>
+          <article class="skill-card reveal reveal-delay-3">
+            <div class="skill-card-top"><span class="skill-icon skill-icon--odoo">O</span><span class="skill-number">03</span></div>
+            <h3>Odoo development</h3>
+            <p>Custom modules, business models, views, access rules and dashboards.</p>
+            <div class="tag-list"><span>Odoo 17</span><span>Odoo 18</span><span>ORM</span><span>QWeb</span></div>
+          </article>
+          <article class="skill-card reveal reveal-delay-1">
+            <div class="skill-card-top"><span class="skill-icon skill-icon--database">DB</span><span class="skill-number">04</span></div>
+            <h3>Data & integration</h3>
+            <p>Persistent business data and connecting systems through APIs.</p>
+            <div class="tag-list"><span>PostgreSQL</span><span>SQLite</span><span>REST APIs</span><span>JSON</span></div>
+          </article>
+          <article class="skill-card reveal reveal-delay-2">
+            <div class="skill-card-top"><span class="skill-icon skill-icon--chart">▥</span><span class="skill-number">05</span></div>
+            <h3>Dashboards & reporting</h3>
+            <p>Presenting operational and financial information in useful views.</p>
+            <div class="tag-list"><span>Chart.js</span><span>OWL components</span><span>KPI views</span></div>
+          </article>
+          <article class="skill-card reveal reveal-delay-3">
+            <div class="skill-card-top"><span class="skill-icon skill-icon--git">⌘</span><span class="skill-number">06</span></div>
+            <h3>Development tools</h3>
+            <p>Version control, local environments and day-to-day development.</p>
+            <div class="tag-list"><span>Git</span><span>GitHub</span><span>VS Code</span><span>PowerShell</span></div>
+          </article>
+        </div>
+        <div class="skills-footnote reveal"><span class="footnote-mark">✳</span> Skill tags describe tools used or represented in the projects shown here; they are not proficiency ratings.</div>
+      </div>
+    </section>
+
+    <section class="section section-projects" id="projects" aria-labelledby="projects-title">
+      <div class="section-shell">
+        <div class="project-heading-row reveal">
+          <div class="section-heading section-heading--projects">
+            <span class="section-index">SELECTED WORK</span>
+            <h2 id="projects-title">Projects with a<br><em>purpose.</em></h2>
+            <p>Live work, public repositories and private development projects.</p>
+          </div>
+          <div class="project-filters" role="group" aria-label="Filter projects">
+            <button class="filter-button is-selected" type="button" data-filter="all" aria-pressed="true">All work <span>06</span></button>
+            <button class="filter-button" type="button" data-filter="odoo" aria-pressed="false">Odoo</button>
+            <button class="filter-button" type="button" data-filter="website" aria-pressed="false">Websites</button>
+            <button class="filter-button" type="button" data-filter="private" aria-pressed="false">Private</button>
+          </div>
+        </div>
+        <p class="sr-only" id="project-filter-status" role="status" aria-live="polite">Showing all 6 projects.</p>
+
+        <div class="project-grid" id="project-grid">
+          <article class="project-card project-card--featured reveal" data-categories="website live" data-title="KiaanCafe.com">
+            <div class="project-visual project-visual--kiaan">
+              <div class="kiaan-preview-window">
+                <div class="kiaan-browser-bar"><span class="browser-lights"><i></i><i></i><i></i></span><span class="browser-address"><i></i> kiaancafe.com</span><span class="browser-menu">···</span></div>
+                <div class="kiaan-site-top"><span>We are open everyday <b>11:00 AM – 09:00 PM</b></span><span class="kiaan-cart">▢ &nbsp;Cart</span></div>
+                <div class="kiaan-site-nav"><span class="kiaan-logo">KIAAN<small>CAFÉ</small></span><span>Home&nbsp;&nbsp;&nbsp; Menu&nbsp;&nbsp;&nbsp; About&nbsp;&nbsp;&nbsp; Contact</span><b>Order online ↗</b></div>
+                <div class="kiaan-site-hero">
+                  <div class="kiaan-site-copy"><small>WELCOME TO</small><strong>Café<br><em>Kiaan</em></strong><span>Food · Coffee · Moments</span><p>A cozy dining space in Sylhet serving delicious food, aromatic coffee and warm hospitality.</p><div class="kiaan-site-buttons"><i>Order online</i><i>View menu</i></div></div>
+                  <div class="kiaan-food-art" aria-hidden="true"><div class="food-plate"><span></span><i></i><b></b></div><div class="food-cup"><i></i></div><div class="food-leaf food-leaf--one"></div><div class="food-leaf food-leaf--two"></div></div>
+                </div>
+                <div class="kiaan-site-categories"><span>FINGER FOODS</span><span>BURGERS</span><span>PIZZA</span><span>PASTA</span><span>SEAFOOD</span><span>COFFEE</span></div>
+              </div>
+              <div class="visual-corner-label"><span class="live-pulse"></span> LIVE WEBSITE</div>
+            </div>
+            <div class="project-content project-content--featured">
+              <div class="project-meta"><span class="project-type">FLAGSHIP PROJECT</span><span class="project-state project-state--live">LIVE · PUBLIC</span></div>
+              <h3>KiaanCafe.com</h3>
+              <p>A live café website for Café Kiaan in Zindabazar, Sylhet. Visitors can explore food and coffee categories, browse the menu, access the cart and start an online order, alongside the café’s story, opening hours and contact information.</p>
+              <div class="tag-list"><span>Live website</span><span>Menu browsing</span><span>Cart & ordering</span><span>Café information</span></div>
+              <div class="project-actions">
+                <a class="button button-primary button-project" href="https://kiaancafe.com/" target="_blank" rel="noopener noreferrer">Visit live website <span aria-hidden="true">↗</span></a>
+                <span class="project-source-note">Technology stack not publicly verified</span>
+              </div>
+            </div>
+          </article>
+
+          <article class="project-card reveal reveal-delay-1" data-categories="odoo public" data-title="Custom Accounting Dashboard">
+            <div class="project-visual project-visual--accounting">
+              <div class="mock-window mock-window--accounting">
+                <div class="mock-window-head"><span class="mock-app-mark">A</span><span>Accounting dashboard</span><i>•••</i></div>
+                <div class="mock-dashboard-layout"><aside><i></i><i></i><i></i><i></i><i></i></aside><div class="mock-dashboard-body"><div class="mock-dashboard-title">Financial overview <small>Odoo 17 · Community</small></div><div class="mock-metric-row"><i><small>REVENUE</small><b></b></i><i><small>EXPENSES</small><b></b></i><i><small>RECEIVABLES</small><b></b></i></div><div class="mock-chart-area"><div class="mock-chart-bars"><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i></div><div class="mock-chart-line"><i></i></div></div><div class="mock-table-lines"><i></i><i></i><i></i></div></div></div>
+              </div>
+              <span class="visual-corner-label">ODOO 17 · OWL 2</span>
+            </div>
+            <div class="project-content">
+              <div class="project-meta"><span class="project-type">PUBLIC REPOSITORY</span><span class="project-state">GITHUB</span></div>
+              <h3>Custom Accounting Dashboard</h3>
+              <p>An Odoo 17 Community dashboard designed around live accounting records. Its repository documents financial KPIs, revenue and expense visualizations, cash and bank trends, aging analysis, and invoice/payment summaries.</p>
+              <div class="tag-list"><span>Odoo 17</span><span>Python</span><span>OWL 2</span><span>JavaScript</span><span>Chart.js</span></div>
+              <div class="project-actions"><a class="inline-link" href="https://github.com/wahab-03/custom-dashboard" target="_blank" rel="noopener noreferrer">View GitHub repository <span aria-hidden="true">↗</span></a></div>
+              <p class="project-note">The repository README describes a code-level build; it does not claim a live production installation.</p>
+            </div>
+          </article>
+
+          <article class="project-card reveal reveal-delay-2" data-categories="odoo public" data-title="Farm Chicken Management">
+            <div class="project-visual project-visual--farm">
+              <div class="farm-mock-window">
+                <div class="farm-mock-head"><span>FARM MANAGEMENT</span><b>ODOO 18</b></div>
+                <div class="farm-mock-nav"><i></i><i></i><i></i><i></i><i></i></div>
+                <div class="farm-mock-main"><div><small>OPERATIONS</small><strong>Farm overview</strong><span>Batch & flock records</span></div><div class="farm-mock-card"><small>BATCH REGISTER</small><i></i><i></i><i></i></div></div>
+                <div class="farm-mock-bottom"><span>VACCINE SCHEDULE</span><span>EGG PRODUCTION</span><span>SALES & EXPENSES</span></div>
+              </div>
+              <span class="visual-corner-label">POULTRY OPERATIONS</span>
+            </div>
+            <div class="project-content">
+              <div class="project-meta"><span class="project-type">PUBLIC REPOSITORY</span><span class="project-state">GITHUB</span></div>
+              <h3>Farm Chicken Management</h3>
+              <p>An Odoo 18 poultry-farm module covering chicken purchase and batch inventory, vaccine schedules, feed management, egg production, mortality, sales, incubation and hatching, baby-chick management, expenses and dashboard views.</p>
+              <div class="tag-list"><span>Odoo 18</span><span>Python</span><span>XML</span><span>JavaScript</span><span>SCSS</span></div>
+              <div class="project-actions"><a class="inline-link" href="https://github.com/wahab-03/farm_chicken_management" target="_blank" rel="noopener noreferrer">View GitHub repository <span aria-hidden="true">↗</span></a></div>
+            </div>
+          </article>
+
+          <article class="project-card reveal reveal-delay-1" data-categories="private odoo" data-title="XenSMS">
+            <div class="project-visual project-visual--sms">
+              <div class="sms-mock-window"><div class="sms-mock-head"><span class="sms-brand-mark">X</span><span>XenSMS <small>GATEWAY</small></span><i>•••</i></div><div class="sms-mock-content"><small>MESSAGE COMPOSER</small><strong>Send a message</strong><div class="sms-input-lines"><i></i><i></i><i></i></div><div class="sms-mock-footer"><span>Odoo integration</span><b>Prepare ↗</b></div></div><div class="sms-message-pill">Message workflow · API</div></div>
+              <span class="visual-corner-label">SMS GATEWAY</span>
+            </div>
+            <div class="project-content">
+              <div class="project-meta"><span class="project-type">PRIVATE DEVELOPMENT</span><span class="project-state project-state--progress">IN DEVELOPMENT</span></div>
+              <h3>XenSMS — SMS Gateway & Odoo Integration</h3>
+              <p>A private SMS gateway connected to a separate Odoo 17 module. The planned customer workflow covers sending messages, templates, bulk and scheduled SMS, message history, delivery-status handling and credit-based usage limits.</p>
+              <div class="tag-list"><span>Python</span><span>Odoo 17</span><span>REST API</span><span>SQLite</span><span>JavaScript</span><span>XML</span></div>
+              <span class="private-label">Private source · Not publicly linked</span>
+            </div>
+          </article>
+
+          <article class="project-card reveal reveal-delay-2" data-categories="private odoo" data-title="Corporate Real Estate Management">
+            <div class="project-visual project-visual--estate">
+              <div class="estate-mock-window"><div class="estate-mock-head"><span>PROPERTY WORKSPACE</span><b>ODOO 18</b></div><div class="estate-mock-body"><div class="estate-building"><i></i><i></i><i></i><i></i><b></b></div><div class="estate-mock-details"><small>PROPERTY RECORD</small><strong>Estate workspace</strong><i></i><i></i><i></i><span>Owners · Tenants · Operations</span></div></div><div class="estate-mock-bottom"><span>PROPERTIES</span><span>CONTRACTS</span><span>PAYMENTS</span></div></div>
+              <span class="visual-corner-label">REAL ESTATE WORKFLOWS</span>
+            </div>
+            <div class="project-content">
+              <div class="project-meta"><span class="project-type">PRIVATE DEVELOPMENT</span><span class="project-state project-state--progress">IN DEVELOPMENT</span></div>
+              <h3>Corporate Real Estate Management</h3>
+              <p>A private Odoo 18 real-estate management project with a dedicated custom addon and dashboard. The development scope centers on the property workspace and related management areas such as owners, tenants, contracts, payments and maintenance.</p>
+              <div class="tag-list"><span>Odoo 18</span><span>Python</span><span>XML</span><span>PostgreSQL</span></div>
+              <span class="private-label">Private source · Development project</span>
+            </div>
+          </article>
+
+          <article class="project-card reveal reveal-delay-3" data-categories="private website" data-title="Dental Medic">
+            <div class="project-visual project-visual--dental">
+              <div class="dental-mock-window"><div class="dental-mock-nav"><strong>DENTAL<span>MEDIC</span></strong><i>ABOUT&nbsp;&nbsp;&nbsp; TREATMENTS&nbsp;&nbsp;&nbsp; CONTACT</i><b>Book a visit ↗</b></div><div class="dental-mock-hero"><small>CARE · CONFIDENCE · SMILES</small><strong>Healthy smiles,<br><em>confident you.</em></strong><span>Clinic website customization</span><div class="dental-tooth" aria-hidden="true">✧</div></div></div>
+              <span class="visual-corner-label">CLINIC WEBSITE</span>
+            </div>
+            <div class="project-content">
+              <div class="project-meta"><span class="project-type">CLIENT CUSTOMIZATION</span><span class="project-state project-state--progress">PRIVATE SOURCE</span></div>
+              <h3>Dental Medic — Clinic Website</h3>
+              <p>A private clinic website customization project focused on treatment pages, doctor profile content, appointment and contact pathways, review navigation, responsive layouts and local payment options.</p>
+              <div class="tag-list"><span>HTML</span><span>CSS</span><span>JavaScript</span><span>Responsive UI</span></div>
+              <span class="private-label">Client work · No public source link</span>
+            </div>
+          </article>
+        </div>
+        <p class="project-disclaimer reveal"><span>↳</span> Public project details are based on the linked repositories. Private project descriptions summarize development work and are not presented as publicly deployed products. Preview panels are illustrative interface artwork, not live product screenshots.</p>
+      </div>
+    </section>
+
+    <section class="section section-education" id="education" aria-labelledby="education-title">
+      <div class="section-shell">
+        <div class="section-heading reveal">
+          <span class="section-index">EDUCATION</span>
+          <h2 id="education-title">A foundation in<br><em>computer science.</em></h2>
+          <p>Academic background that supports my interest in software engineering.</p>
+        </div>
+        <article class="education-card reveal">
+          <div class="education-monogram">UAP<span>✳</span></div>
+          <div class="education-main"><span class="mini-kicker">BACHELOR'S DEGREE</span><h3>Bachelor of Science in<br>Computer Science & Engineering</h3><p>University of Asia Pacific, Dhaka</p></div>
+          <div class="education-aside"><span>ACADEMIC FOCUS</span><strong>COMPUTER SCIENCE<br>& ENGINEERING</strong><i aria-hidden="true">↗</i></div>
+        </article>
+      </div>
+    </section>
+
+    <section class="section section-contact" id="contact" aria-labelledby="contact-title">
+      <div class="section-shell">
+        <div class="section-heading reveal">
+          <span class="section-index">GET IN TOUCH</span>
+          <h2 id="contact-title">Have something<br><em>in mind?</em></h2>
+          <p>Have a project idea, a question or an opportunity? I'd be glad to hear from you.</p>
+        </div>
+        <div class="contact-layout">
+          <div class="contact-copy reveal reveal-delay-1">
+            <span class="mini-kicker">LET'S START A CONVERSATION</span>
+            <h3>Good work starts with a <em>good conversation.</em></h3>
+            <p>Reach out through email or WhatsApp, or connect with me on the platforms below.</p>
+            <div class="contact-links">
+              <a class="contact-link" href="mailto:abdul404wahab@gmail.com"><span class="contact-link-icon" aria-hidden="true">✉</span><span><small>EMAIL</small><strong>abdul404wahab@gmail.com</strong></span><i aria-hidden="true">↗</i></a>
+              <a class="contact-link" href="https://wa.me/8801780843475" target="_blank" rel="noopener noreferrer"><span class="contact-link-icon contact-link-icon--whatsapp" aria-hidden="true">◉</span><span><small>WHATSAPP</small><strong>01780843475</strong></span><i aria-hidden="true">↗</i></a>
+              <a class="contact-link" href="https://www.linkedin.com/in/abdul-wahab-a36583279/" target="_blank" rel="noopener noreferrer"><span class="contact-link-icon" aria-hidden="true">in</span><span><small>LINKEDIN</small><strong>Abdul Wahab</strong></span><i aria-hidden="true">↗</i></a>
+              <a class="contact-link" href="https://github.com/wahab-03" target="_blank" rel="noopener noreferrer"><span class="contact-link-icon" aria-hidden="true">⌘</span><span><small>GITHUB</small><strong>wahab-03</strong></span><i aria-hidden="true">↗</i></a>
+              <a class="contact-link" href="https://www.facebook.com/profile.php?id=100064949740569" target="_blank" rel="noopener noreferrer"><span class="contact-link-icon" aria-hidden="true">f</span><span><small>FACEBOOK</small><strong>Abdul Wahab</strong></span><i aria-hidden="true">↗</i></a>
+            </div>
+          </div>
+
+          <form class="contact-form reveal reveal-delay-2" id="contact-form" novalidate>
+            <div class="form-heading"><span class="mini-kicker">SEND A MESSAGE</span><h3>Tell me about your idea.</h3><p>Fill in the details and prepare an email draft.</p></div>
+            <label for="contact-name">Your name</label>
+            <input id="contact-name" name="name" type="text" autocomplete="name" placeholder="How should I address you?" required maxlength="100">
+            <label for="contact-email">Your email</label>
+            <input id="contact-email" name="email" type="email" autocomplete="email" placeholder="you@example.com" required maxlength="160">
+            <label for="contact-message">Your message</label>
+            <textarea id="contact-message" name="message" rows="5" placeholder="A little about what you have in mind..." required maxlength="4000"></textarea>
+            <button class="button button-primary form-submit" type="submit">Prepare email draft <span aria-hidden="true">↗</span></button>
+            <p class="form-status" id="form-status" role="status" aria-live="polite">This static portfolio prepares a message in your email app; it does not send or store form submissions.</p>
+            <a class="button button-outline email-draft-link" id="email-draft-link" href="#" hidden>Open prepared email <span aria-hidden="true">↗</span></a>
+          </form>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="footer-inner">
+      <a class="brand footer-brand" href="#home" aria-label="Abdul Wahab — back to top"><span class="brand-mark">AW</span><span class="brand-name">Abdul Wahab<span>.</span></span></a>
+      <p>Software development with purpose.</p>
+      <div class="footer-socials"><a href="https://github.com/wahab-03" target="_blank" rel="noopener noreferrer">GitHub</a><a href="https://www.linkedin.com/in/abdul-wahab-a36583279/" target="_blank" rel="noopener noreferrer">LinkedIn</a><a href="mailto:abdul404wahab@gmail.com">Email</a></div>
+      <span class="footer-copyright">© <span id="current-year"></span> Abdul Wahab. All rights reserved.</span>
+      <a class="back-to-top" href="#home">Back to top <span aria-hidden="true">↑</span></a>
+    </div>
+  </footer>
+
+  <script src="script.js" defer></script>
+</body>
+</html>
