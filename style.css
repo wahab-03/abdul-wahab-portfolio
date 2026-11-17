@@ -568,8 +568,11 @@ img { display: block; max-width: 100%; }
   *, *::before, *::after { scroll-behavior: auto !important; animation-duration: .01ms !important; animation-iteration-count: 1 !important; transition-duration: .01ms !important; }
   .reveal { opacity: 1; transform: none; }
 }
+<<<<<<< HEAD
 
 /* Real project screenshots */
 .shot-window { width: min(100%, 400px); overflow: hidden; border: 1px solid rgba(255,255,255,.25); border-radius: 10px; background: #fff; line-height: 0; box-shadow: 0 24px 65px rgba(0,0,0,.35); }
 .shot-window img { display: block; width: 100%; height: auto; }
 .project-visual--kiaan .shot-window { width: min(100%, 560px); }
+=======
+>>>>>>> 4f5f550dbd28b8f912744982f51536fbbbb509b5
